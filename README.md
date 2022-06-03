@@ -19,6 +19,7 @@
   - Language : Pig Latin
   - Abstaction for Map Reduce
   - Useful for creating ETL
+  - Pig is a high level framework for running MapReduce jobs on __Hadoop__ clusters
 - Apache Spark
 - Apache Kafka
 
