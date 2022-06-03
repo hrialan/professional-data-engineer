@@ -25,3 +25,10 @@
 
 
 ## Real Time Messaging with Pub/Sub
+
+- Global messaging and event ingestion 
+- Serveless
+- 500 millions of messages per seconds
+- Two types of subscription :
+  - __Pull__ : default, messages must be acknowledged 
+  - __Push__ : sent messages to an endpoint (HTTPS)
