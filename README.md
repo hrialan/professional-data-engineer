@@ -32,3 +32,7 @@
 - Two types of subscription :
   - __Pull__ : default, messages must be acknowledged 
   - __Push__ : sent messages to an endpoint (HTTPS)
+
+
+## Pipelines with Cloud Dataflow
+
