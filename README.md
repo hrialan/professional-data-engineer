@@ -29,9 +29,12 @@
 - Global messaging and event ingestion 
 - Serveless
 - 500 millions of messages per seconds
+- "At least one delivery" guaranty
 - Two types of subscription :
   - __Pull__ : default, messages must be acknowledged 
   - __Push__ : sent messages to an endpoint (HTTPS)
+- Message retention default duration : 7 days (min : 10 min / max : 7 days)
+- Messages must be 10Mb or less size
 
 
 ## Pipelines with Cloud Dataflow
