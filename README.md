@@ -39,6 +39,13 @@
 
 ## Pipelines with Cloud Dataflow
 
+- Powerfull ETL tool for transforming and enriching data
+- Fully managed, serveless
+- Uses open source Apache [Beam](https://beam.apache.org/) SDK
+- Supports SQL, Java, Python
+- Real-time and batch processing
+- Stackdriver integration
+- Data Source (Storage, BigQuery, PubSub, Kafka) -> Pipepline (Dataflow) -> Data Sink (Storage, BigQuery, Bigtable)
 
 --- 
 Cloud task 
