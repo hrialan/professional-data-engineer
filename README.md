@@ -46,6 +46,7 @@
 - Real-time and batch processing
 - Stackdriver integration
 - Data Source (Storage, BigQuery, PubSub, Kafka) -> Pipepline (Dataflow) -> Data Sink (Storage, BigQuery, Bigtable)
+- Pipelines are DAGS
 
 --- 
 Cloud task 
