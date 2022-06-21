@@ -47,6 +47,11 @@
 - Stackdriver integration
 - Data Source (Storage, BigQuery, PubSub, Kafka) -> Pipepline (Dataflow) -> Data Sink (Storage, BigQuery, Bigtable)
 - Pipelines are DAGS
+- A PCollection is a data set or data stream. The data that a pipeline processes is part of a PCollection
+- Window - A PCollection can be subdivided into windows based on the timestamps of the individual elements. Windows enable grouping operations over collections that grow over time by dividing the collection into windows of finite collections.
+- Watermark - A watermark is a guess as to when all data in a certain window is expected to have arrived. This is needed because data isn’t always guaranteed to arrive in a pipeline in time order, or to always arrive at predictable intervals.
+- Trigger - A trigger determines when to aggregate the results of each window.
+- [Documentation](https://beam.apache.org/documentation/basics/)
 
 --- 
 Cloud task 
