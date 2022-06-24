@@ -86,3 +86,13 @@
 
 - Report : Detailed set of charts, tables and graphs
 - Dashboard : View at a high-level, KPIs, Understand progress at a glance
+
+- Data distributions : 
+  - Bernoulli distribution : only two possible outcomes O/1 - Discrete
+  - Uniform distribution : outcomes are equally likely, constant proba on interval [a, b]
+  - Binomial distibution : Discrete, 2 possible outcomes, n identical trials
+  - Normal distribution 
+  - Poisson distribution : events happen randomly
+  - Exponential distribution 
+ 
+ - Data studio 
