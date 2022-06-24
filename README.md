@@ -80,3 +80,9 @@
 - Particularly well suited for marketing, financial and transactional data. (purchase histories, stock prices) 
 - Also for Time Series and IoT.
 - For at least a terabyte of storage
+- Max cell size : 10Mb / Max row size : 100 Mb
+
+## Visualization with Cloud Data Studio
+
+- Report : Detailed set of charts, tables and graphs
+- Dashboard : View at a high-level, KPIs, Understand progress at a glance
