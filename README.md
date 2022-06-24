@@ -53,5 +53,30 @@
 - Trigger - A trigger determines when to aggregate the results of each window. For bounded data, results are emitted after all of the input has been processed. For unbounded data, results are emitted when the watermark passes the end of the window, indicating that the system believes all input data for that window has been processed.
 - [Documentation](https://beam.apache.org/documentation/basics/)
 
---- 
-Cloud task 
+## Managed Spark with Cloud Dataproc
+
+- Dataproc is a fully managed and highly scalable service for running Apache Spark, Apache Flink, Presto, and 30+ open source tools and frameworks.
+- Use Dataproc for data lake modernization, ETL, and secure data science, at planet scale, fully integrated with Google Cloud, at a fraction of the cost.
+
+- Dataproc is a great choice for quickly migrating Hadoop and Spark workloads into GCP.
+- Biggest benefits of Dataproc -> ease of scaling, being able to use Storage instead of HDFS, and the connectors to other GCP services including BigQuery and BigTable.
+- Hadoop, Spark, Zookeper, Hive, Tez, Jupyter
+- Often Dataflow is a prefered product for ingesting Big Data, in particular for streaming. 
+
+## NoSQL Data with Cloud Bigtable
+
+- Managed wide-columns NoSQL Database (key value pairs)
+- High throughput
+- Low latency
+- Scalability
+- High availability
+
+- HBase -> open source implementation of the big table model / now a top-level Apache project
+
+- Every row has a key which identifies it. The only index you get. 
+- Each row can have several columns which can be grouped into families.
+- Empty cells don't use any space in the database.
+
+- Particularly well suited for marketing, financial and transactional data. (purchase histories, stock prices) 
+- Also for Time Series and IoT.
+- For at least a terabyte of storage
