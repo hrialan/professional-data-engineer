@@ -81,6 +81,21 @@
 - Also for Time Series and IoT.
 - For at least a terabyte of storage
 - Max cell size : 10Mb / Max row size : 100 Mb
+- Field promotion
+- Repeatedly updating the same row with new information is not as performant as adding new rows.
+- Never put a timestamp at the start of a row key
+- When to use BigTable : if moving from an on premise environment -> HBase / When BigTable beats BigQuery, ex time series or big dataset when latency is an issue
+
+## Data Analytics with BigQuery
+
+- Peta-byte scale, serverless, highly scalable cloud enterprise data warehouse
+- High availability
+- supports standard SQL 
+- Federated data (external tables)
+- Automatic backups (automatic backup and keeps a seven day history of changes)
+- Governance and security
+- Separation of storage and compute
+
 
 ## Visualization with Cloud Data Studio
 
