@@ -117,4 +117,9 @@
   - Poisson distribution : events happen randomly
   - Exponential distribution 
  
- - Data studio 
+## Cloud Composer 
+
+- Apache airflow
+- task orchestration system created by airbnb
+- Central management / scheduling
+- DAG 
