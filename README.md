@@ -96,6 +96,13 @@
 - Governance and security
 - Separation of storage and compute
 
+- Partitionning : is a way to break up a large table into a number of smaller tables.
+  - partitioned baased on a single column : partition key
+  - ingestion time partitioned tables : partitioned by load or arrival date
+  - partition tables : based on specific timaestamp or date column
+  - why : improve query performance / control costs
+
+- Slots : unit of computational capacity required to execute SQL queries
 
 ## Visualization with Cloud Data Studio
 
